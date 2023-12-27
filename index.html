@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Shreya</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#">Shreya</a></li>
+            <li class="hideOnMobile"><a href="#">Resume</a></li>
+            <li class="hideOnMobile"><a href="#">Projects</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="about">
+        <div>
+            <img src="./assets/pic.png" class="mypic">
+        </div>
+        <div class="text">
+            <h1 style="font-size: 70px;">Hello!</h1>
+        <p><h4 style="font-size: 30px;">A Bit About Me</h4><br>I am Shreya -  an undergraduate student pursuing Information Science and Engineering rom University of Visvesvaraya College of Engineering. Currently in my 2nd semester, I take great interest in exploring technology and this website contains some of the projects and posters I have worked on.
+        </p>
+        <div style="display: flex;flex-direction: row;">
+            <div style="padding: 5px;" id="1">
+               <a href="#"> <img src="./assets/icon2.png" style="border-radius: 50%;height: 120px;width: 120px;border: 2px solid black;padding: 5px;"></a>
+            </div>
+            <div style="padding: 5px;" id="1"><a href="#">
+              <img src="./assets/icon.png" style="border-radius: 50%;height: 120px;width: 120px;border: 2px solid black;padding: 5px;"></a>
+            </div>
+            <div style="padding: 5px;" id="1"><a href="#">
+              <img src="./assets/icon3 (2).png" style="border-radius: 50%;height: 120px;width: 120px;border: 2px solid black;padding: 5px;"></a>
+            </div>
+         </div>
+        </div>
+    </div><br>
+    <div class="foot">
+     <div><p style="font-weight: bold;">Phone</p><br>+91 89040 02112</div>
+     <div><p style="font-weight: bold;">Email</p><br>shreyanayakb26@gmail.com</div>
+     <div><p style="font-weight: bold;">Let's Connect!</p><br>
+        <div class="connect">
+            <div><a href="https://www.instagram.com/shreya.nayak_026/"><img src="./assets/insta.png" height="30px" width="30px"></a>&nbsp;&nbsp;</div>
+            <div><a href="https://www.linkedin.com/in/shreya-nayak-b-622a4b261/"><img src="./assets/linkedin1.png" height="30px" width="30px"></a></div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
